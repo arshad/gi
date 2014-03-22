@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/arshad/gi/issues"
   },
-  "homepage": "https://github.com/arshad/gi"
+  "homepage": "https://github.com/arshad/gi",
+  "dependencies": {
+    "request": "~2.34.0",
+    "commander": "~2.1.0"
+  }
 }
