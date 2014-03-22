@@ -48,19 +48,3 @@ program
 program.parse(process.argv);
 
 if (!program.args.length) program.help();
-
-// var url = 'https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore';
-
-// var options = {
-//   url: url,
-//   headers: {
-//     'User-Agent': 'request'
-//   }
-// }
-
-// // Make the request.
-// request(options, function (error, response, body) {
-//   if (!error && response.statusCode == 200) {
-//     console.log(body);
-//   }
-// });
